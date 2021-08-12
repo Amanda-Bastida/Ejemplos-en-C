@@ -18,30 +18,30 @@ int ejecutarOpcion(char seleccion){
 	float a, b;
 	switch(seleccion){
 		case '1':
-            printf("Ingrese el primer numero: ");
+          	        printf("Ingrese el primer numero: ");
 			scanf("%f", &a);
-            printf("Ingrese el segundo numero: ");
+           		printf("Ingrese el segundo numero: ");
 			scanf("%f", &b);
 			printf("La suma es: %.2f\n", a+b);
 			break;
 		case '2':
 			printf("Ingrese el primer numero: ");
 			scanf("%f", &a);
-            printf("Ingrese el segundo numero: ");
+          	        printf("Ingrese el segundo numero: ");
 			scanf("%f", &b);
 			printf("La resta es: %.2f\n", a-b);
 			break;
 		case '3':
 			printf("Ingrese el primer numero: ");
 			scanf("%f", &a);
-            printf("Ingrese el segundo numero: ");
+            		printf("Ingrese el segundo numero: ");
 			scanf("%f", &b);
 			printf("La multiplicacion es: %.2f\n", a*b);
 			break;
 		case '4':
 			printf("Ingrese el primer numero: ");
 			scanf("%f", &a);
-            printf("Ingrese el segundo numero: ");
+           		 printf("Ingrese el segundo numero: ");
 			scanf("%f", &b);
 			printf("La division es: %.2f\n", a/b);
 			break;
